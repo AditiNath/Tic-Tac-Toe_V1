@@ -1,0 +1,96 @@
+h1 {
+  text-align: center;
+  color: #6BCDD6 !important;
+  margin-top: 1vh;
+}
+
+body {
+  background-color: black !important;
+  height: 100%;
+  width: 100%
+}
+
+.container {
+  padding-top: 3%;
+  min-height: 40%;
+}
+
+#board {
+  height: 40%;
+  width: 30vw;
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#row_Stats {
+  width: 33vw;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  color: #FFEEDB;
+}
+
+.tic-tac-toe-row>.col-xs-4 {
+  padding: 0;
+}
+
+#row_Stats>.col-xs-4 {
+  width: 10vw;
+  margin: 0;
+}
+
+.square {
+  height: 16.6vh;
+  width: 10vw;
+  background-color: #6BCDD6;
+  color: #2A4E56;
+  margin: 2px;
+  font-size: 16vh;
+  cursor: pointer;
+  border-radius: 5px;
+  position: relative;
+}
+
+.text-vertical-center {
+  line-height: 16.6vh;
+}
+
+.no-pad {
+  padding: 0 0 0 0;
+}
+
+.winner {
+  background-color: #FF8811;
+}
+
+.footer {
+  width: 100%;
+  margin-top: 3vh;
+  font-size: 20px;
+  color: #FFEEDB;
+  cursor: pointer;
+}
+
+.modal-footer {
+  padding: 0;
+}
+
+.modal-footer-row {
+  width: 100%;
+  padding: 0;
+}
+
+.modal-button {
+  width: 100%;
+}
+
+.svg-content {
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}

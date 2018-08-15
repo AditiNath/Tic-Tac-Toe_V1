@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="Style.css">
+  <title>Tic Tac Toe</title>
+</head>
+
+<body>
+  <h1 class="display-2"><b>TIC  &nbspTAC &nbspTOE</b></h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="row" id="row_Stats">
+          <div class="col-xs-4 no-pad text-center">
+            <div>
+              <strong><u>X Wins</u></strong>
+            </div>
+            <div>
+              <strong id="XWins">0</strong>
+            </div>
+          </div>
+          <div class="col-xs-4 no-pad text-center">
+            <div>
+              <strong><u>Player</u></strong>
+            </div>
+            <div>
+              <strong id="playerTurn">X</strong>
+            </div>
+          </div>
+          <div class="col-xs-4 text-center no-pad">
+            <div>
+              <strong><u>O Wins</u></strong>
+            </div>
+            <div>
+              <strong id="OWins">0</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="text-center text-vertical-center" id="board">
+          <div class="row tic-tac-toe-row">
+            <div class="col-xs-4">
+              <div class="square" id="cell11"></div>
+            </div>
+            <div class="col-xs-4">
+              <div class="square" id="cell12"></div>
+            </div>
+            <div class="col-xs-4">
+              <div class="square" id="cell13"></div>
+            </div>
+          </div>
+          <div class="row tic-tac-toe-row">
+            <div class="col-xs-4">
+              <div class="square" id="cell21"></div>
+            </div>
+            <div class="col-xs-4">
+              <div class="square" id="cell22"></div>
+            </div>
+            <div class="col-xs-4">
+              <div class="square" id="cell23"></div>
+            </div>
+          </div>
+          <div class="row tic-tac-toe-row">
+            <div class="col-xs-4">
+              <div class="square" id="cell31"></div>
+            </div>
+            <div class="col-xs-4">
+              <div class="square" id="cell32"></div>
+            </div>
+            <div class="col-xs-4">
+              <div class="square" id="cell33"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 text-center footer" id="restartGame">
+        <strong> Restart Game </strong>
+      </div>
+    </div>
+  </div>
+  <div id="playModal" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body text-center">
+          <p>Select player (X always goes first)</p>
+        </div>
+        <div class="modal-footer">
+          <div class="row modal-footer-row">
+            <div class="col-xs-12 text-center modal-button">
+              <button type="button" class="btn btn-lg btn-default btn-marker-select" data-marker="X" data-dismiss="modal">X</button>
+              <button type="button" class="btn btn-lg btn-default btn-marker-select" data-marker="O" data-dismiss="modal">O</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="winModal" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body text-center">
+          <p id="modalText"></p>
+        </div>
+        <div class="modal-footer text-center modal-footer-row">
+          <button type="button" class="btn btn-default" data-dismiss="modal" id="btn_ModalClose">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="Main.js"></script>
+</body>
+
+</html>
