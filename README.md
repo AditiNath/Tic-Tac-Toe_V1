@@ -23,13 +23,14 @@ Unzip the folder and run the Index.html file in your broswer. NOTE: If you run t
 
 # TODO
 
-1. Implement AI logic, either MinMax algorithm or NegaMax.
-2. Implement game state visualization for NegaMax algorithm. Refer to this wonderful visualization for inspiration! 
+1. ADD UNIT TESTING
+2. Implement AI logic, either MinMax algorithm or NegaMax.
+3. Implement game state visualization for NegaMax algorithm. Refer to this wonderful visualization for inspiration! 
 http://bernii.github.io/tic-tac-toe-coffee/
-3. Add two player option
-4. Make the page more responsive for mobile devices
-5. Implement in React
-6. Cry in a corner when above fails
+4. Add two player option
+5. Make the page more responsive for mobile devices
+6. Implement in React
+7. Cry in a corner when all above fails
 
 
 
