@@ -15,12 +15,6 @@ Unzip the folder and run the Index.html file in your broswer. NOTE: If you run t
 5. In order to scale the svg element, circle and path for the crosses, I calculated the dimensions from the current width and height of the svg container. 
 6. Computer makes moves by generating random numbers using Math.random()
 
-# Challenges faced
-
-1. Main challenge was getting the svg elements to scale according to the view size.
-2. Animating the markers appropriately.
-3. Deciding on the right color palette.
-
 # TODO
 
 1. ADD UNIT TESTING
@@ -39,6 +33,14 @@ http://bernii.github.io/tic-tac-toe-coffee/
 6. Implement in React
 7. Cry in a corner when all above fails
 
+# Challenges faced
 
+1. Main challenge was getting the svg elements to scale according to the view size.
+2. Animating the markers appropriately.
+3. Deciding on the right color palette.
 
+# Things learned
+
+1. Viewbox and its awesomeness 
+2. Awesome visualization methods: https://gfredericks.com/gfrlog/76
 
