@@ -24,6 +24,13 @@ Unzip the folder and run the Index.html file in your broswer. NOTE: If you run t
 # TODO
 
 1. ADD UNIT TESTING
+ - Assert that both, human and machine markers are set after playModal closes
+ - Assert that player is set to true or false depending on marker selected
+ - Assert that machine always generates a valid number
+ - Assert that human can't override or select a cell which the machine has selected
+ - Assert that the check conditions work 
+ - Assert that no more moves can be made post 9
+ - Assert that game reset clears the board
 2. Implement AI logic, either MinMax algorithm or NegaMax.
 3. Implement game state visualization for NegaMax algorithm. Refer to this wonderful visualization for inspiration! 
 http://bernii.github.io/tic-tac-toe-coffee/
